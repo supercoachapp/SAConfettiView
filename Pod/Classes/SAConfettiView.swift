@@ -104,8 +104,8 @@ open class SAConfettiView: UIView {
         confetti.color = color.cgColor
         confetti.velocity = CGFloat(350.0 * intensity)
         confetti.velocityRange = CGFloat(80.0 * intensity)
-        confetti.emissionLongitude = CGFloat(.pi)
-        confetti.emissionRange = CGFloat(.pi/4)
+        confetti.emissionLongitude = .pi
+        confetti.emissionRange = .pi/4
         confetti.spin = CGFloat(3.5 * intensity)
         confetti.spinRange = CGFloat(4.0 * intensity)
         confetti.scaleRange = CGFloat(intensity)
