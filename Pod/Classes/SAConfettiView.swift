@@ -51,7 +51,7 @@ open class SAConfettiView: UIView {
 
         emitter.beginTime = CACurrentMediaTime();
         emitter.emitterPosition = CGPoint(x: frame.size.width / 2.0, y: 0)
-        emitter.emitterShape = kCAEmitterLayerLine
+        emitter.emitterShape = .line
         emitter.emitterSize = CGSize(width: frame.size.width, height: 1)
 
         var cells = [CAEmitterCell]()
